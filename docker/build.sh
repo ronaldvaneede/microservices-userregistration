@@ -1,3 +1,4 @@
+#!/bin/sh
 rm -rf build
 mkdir build
 cp ../build/libs/spring-boot-restfull-service.jar build

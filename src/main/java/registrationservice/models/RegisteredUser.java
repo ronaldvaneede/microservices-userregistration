@@ -57,9 +57,7 @@ public class RegisteredUser {
 
         RegisteredUser that = (RegisteredUser) o;
 
-        if (emailAddress != null ? !emailAddress.equals(that.emailAddress) : that.emailAddress != null) return false;
-
-        return true;
+        return !(emailAddress != null ? !emailAddress.equals(that.emailAddress) : that.emailAddress != null);
     }
 
     @Override
